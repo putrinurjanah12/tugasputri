@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>formulir</title>
+       
+    </head>
+    <body>
+        <form>
+            <h2>Buat Account Baru!</h2><br>
+            <h3>Sign Up Form</h3><br>
+            First name:<br>
+            <input type="text" name="firstname"><br>
+            Last name:<br>
+            <input type="text" name="lastname">
+          </form>
+
+
+          <div data-role="page">
+            <div data-role="header">
+            </div>
+          
+            <div data-role="main" class="ui-content">
+              <form method="post" action="/action_page_post.php">
+                <p>Gender:</p>
+
+                <form>
+                  <input type="radio" id="Male" name="fav_language" value="Male">
+                  <label for="Male">Male</label><br>
+                  <input type="radio" id="Female" name="fav_language" value="Female">
+                  <label for="Female">Female</label><br>
+                  <input type="radio" id="Other" name="fav_language" value="Other">
+                  <label for="Other">Other</label>
+                </form> 
+                <br>
+                    <h4>Nationali:</h4>
+                    <select >
+                    <option>Indonesia</option>
+                    <option>Singapura</option>
+                    <option>India</option>
+                    
+                 </select ><br>
+                </tr>
+                <br>
+                <td>Language Spoken</td><br>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> I have a bike</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> I have a car</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3"> I have a boat</label><br> 
+                <br>
+                <tr>
+                  <td>Bio</td>
+                  <br>
+                  <td><textarea name=""></textarea></td>
+                </tr>
+                <tr><br>
+
+                <a href="welcome.html"><input type="submit" data-inline="true" value="Submit"></a>
+              </form>
+            </div>
+          </div>
+          
+           
+       
+    </body>
+</html>
